@@ -1,0 +1,29 @@
+table td {
+  border: 1px solid grey;
+  width: 100px;
+  height: 100px;
+  font-size: xx-large;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+button {
+  position: absolute;
+  right: 38%;
+  top: 24%;
+  background-color: rgb(40, 154, 241);
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.5s;
+}
+button:hover {
+  background-color: rgb(11, 117, 199);
+  cursor: pointer;
+}
